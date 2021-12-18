@@ -53,7 +53,7 @@ var upload = multer({
 
 
 app.get("/",(req,res) =>{
-	res.render("/Signup");
+	res.render("Signup");
 })
 app.get("/picture",(req,res) =>{
 	res.render("image");
